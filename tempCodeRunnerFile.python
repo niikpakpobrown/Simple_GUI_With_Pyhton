@@ -1,9 +1,0 @@
-
-import json
-
-s = "sldlkf"
-
-
-with open('fff.txt', 'a') as f:
-    json.dump(dir(s), f)
-
